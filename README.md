@@ -118,4 +118,9 @@ Then I did Sequential feature selector + Linear regression, Ordinarily Least Squ
 3. Sex is not an important factor in the Heart Attack. Although since data has more male oriented as compared to female oriented data set, so it may need more data related to female patients.Females seem to suffer from heart condition more than males as per the dataset.
 4. Age seems to be just a number. It does not matter related to Heart Attack.
 
+## Future Work
+By adding more attributes in the dataset, the model described in the analysis can further be elongated to diversify. For better accuracy, you can add the number of attributes used for prediction. Moreover, the dataset's size can be increased too; this will also help get preferable accuracy.
 
+More algorithms may be used to make the model more efficient.
+
+Algorithms such as Help Vector Machine, KNN, and others may be beneficial in order to get a greater degree of precision for the results.
