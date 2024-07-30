@@ -106,12 +106,16 @@ Two-third of the patients showed no exercise induced angina.
 
 Sex
 More patients in the sample data are male.
-Females seem to suffer from heart condition more than males.## Modeling:
 
+
+## Modeling
 Once the data set is ready. Next step is to create models. First of all, I calculated permutation importance. It helped to understand which features/ columns are more important than others. Looking at it, it helps to drop some of the coulmns which do not have importance.
+Then I did Sequential feature selector + Linear regression, Ordinarily Least Squares (OLS), Ridge Regression. based on these models, I could find various factors which have impact on Heart Attack.
 
-
-
-
+## Findings
+1. Among the three models, Sequential feature selector + Linear regression was more accurate as compared to two other models.
+2. cp: chest pain type, thalach: maximum heart rate achieved and  number of major vessels (0-3) colored by flourosopy, are critical factors in the Heart Attack.
+3. Sex is not an important factor in the Heart Attack. Although since data has more male oriented as compared to female oriented data set, so it may need more data related to female patients.Females seem to suffer from heart condition more than males as per the dataset.
+4. Age seems to be just a number. It does not matter related to Heart Attack.
 
 
